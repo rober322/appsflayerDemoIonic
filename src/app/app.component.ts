@@ -11,8 +11,8 @@ export class AppComponent {
   constructor(public platform: Platform) {
     this.platform.ready().then(() => {
       const afConfig: AFInit = {
-        appID: 'id1585857307', // replace with your app ID.
-        devKey: 'ufkKv2yxxFrdXHxGMnHDQR', // replace with your dev key.
+        appID: 'appID', // replace with your app ID.
+        devKey: 'devKey', // replace with your dev key.
         isDebug: false,
         waitForATTUserAuthorization: 10, // for iOS 14 and higher
         registerOnDeepLink: true,
