@@ -10,7 +10,7 @@ export class TabsPage {
   constructor() {}
 
   tab1() {
-    console.log('ROBER Tab 1');
+    console.log('Tab 1');
     const data: AFEvent = {
       eventName: 'tab1',
       eventValue: {
@@ -21,12 +21,12 @@ export class TabsPage {
     };
 
     AppsFlyer.logEvent(data)
-      .then((r) => console.log('ROBER logEvent res1: ', r.res))
-      .catch((err) => console.log('ROBER logEvent err1: ', err));
+      .then((r) => console.log('logEvent res1: ', r.res))
+      .catch((err) => console.log('logEvent err1: ', err));
   }
 
   tab2() {
-    console.log('ROBER Tab 2');
+    console.log('Tab 2');
     const data: AFEvent = {
       eventName: 'tab2',
       eventValue: {
@@ -37,12 +37,12 @@ export class TabsPage {
     };
 
     AppsFlyer.logEvent(data)
-      .then((r) => console.log('ROBER logEvent res2: ', r.res))
-      .catch((err) => console.log('ROBER logEvent err2: ', err));
+      .then((r) => console.log('logEvent res2: ', r.res))
+      .catch((err) => console.log('logEvent err2: ', err));
   }
 
   tab3() {
-    console.log('ROBER Tab 3');
+    console.log('Tab 3');
     const data: AFEvent = {
       eventName: 'tab3',
       eventValue: {
@@ -53,7 +53,7 @@ export class TabsPage {
     };
 
     AppsFlyer.logEvent(data)
-      .then((r) => console.log('ROBER logEvent res3: ', r.res))
-      .catch((err) => console.log('ROBER logEvent err3: ', err));
+      .then((r) => console.log('logEvent res3: ', r.res))
+      .catch((err) => console.log('logEvent err3: ', err));
   }
 }
